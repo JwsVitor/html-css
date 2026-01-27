@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(177, 127, 67);
+        }
+        a:active{
+          color: rgb(202, 124, 124);
+        }
+        a:hover{
+            text-decoration: overline;
+            background-color: rgb(149, 189, 189);
+        }
+        a:after{
+            content: '← ';
+        }
+        a:before{
+            content: '→ ';
+        }
+        a.especial:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/jaovitorws?igsh=ZGtkZmo2N2g2bDIw" target="_blank" class="especial">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@J%C3%A3oDeFone/featured" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://github.com/JwsVitor" target="_blank">Github</a></li>
+    </ul>
+</body>
+</html>

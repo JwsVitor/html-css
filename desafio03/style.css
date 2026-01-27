@@ -1,0 +1,12 @@
+@font-face {
+  font-family:"transformers" ;
+  src: url(fonts/transformers.ttf) format("truetype") ;
+}
+
+h1{
+  font-family: "transformers";
+}
+
+p{
+  font: italic bolder 3em'work sans', sans-serif; 
+}
