@@ -135,6 +135,12 @@ main img.pequena{
     display: block;
 }
 
+main img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 div.video{
     background-color: var(--color3);
     margin: 0px -20px 30px -20px;
