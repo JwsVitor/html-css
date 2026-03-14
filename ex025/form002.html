@@ -7,13 +7,13 @@
 </head>
 <body>
     <h1>Teste de formulário</h1>
-    <form action="cadastro.js" method="get"></form>
+    <form action="cadastro.js" method="get" autocomplete="on"></form>
     <p>
         <label for="iusu"> Usuário:</label>
-        <input type="text" name="nusu" id="iusu" required>
+        <input type="text" name="nusu" id="iusu" required minlength="5" maxlength="10" placeholder="nome de usuario" autocomplete="nickname">
     </p>
     <p>
-        <label for="isenha">Senha: <input type="password" name="nsenha" id="isenha" required></label></p>
+        <label for="isenha">Senha: <input type="password" name="nsenha" id="isenha" required minlength="5" maxlength="10" placeholder="senha" autocomplete="current-password"></label></p>
     <p>
         <input type="submit" value="Login">
         <input type="reset" value="Limpar">
